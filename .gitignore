@@ -14,8 +14,22 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+*.pem
+
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
 # Go workspace file
 go.work
+
+.vscode/
+.idea/
+
+dev_tool/
+etc/
+build/*
+
+dump.rdb
+
+logs/
+uploads/
