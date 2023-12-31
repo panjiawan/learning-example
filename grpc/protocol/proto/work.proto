@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "../pb/work;work";
+
+package work;
+
+service workWindow {
+  rpc GetWork (Request) returns (Response) {}
+}
+
+message Request {
+  string name = 1;
+  int64 age = 2;
+}
+
+message Response {
+  string work = 1;
+}
