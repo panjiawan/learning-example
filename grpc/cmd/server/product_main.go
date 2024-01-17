@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/panjiawan/learningExample/grpc/protocol/pb/ecommerce"
-	ecommerceService "github.com/panjiawan/learningExample/grpc/service/ecommerce"
+	"github.com/panjiawan/note/grpc/protocol/pb/ecommerce"
+	ecommerceService "github.com/panjiawan/note/grpc/service/ecommerce"
 	"google.golang.org/grpc"
 	"net"
 )

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/panjiawan/learningExample/grpc/protocol/pb/work"
-	workService "github.com/panjiawan/learningExample/grpc/service/work"
+	"github.com/panjiawan/note/grpc/protocol/pb/work"
+	workService "github.com/panjiawan/note/grpc/service/work"
 	"google.golang.org/grpc"
 	"log"
 	"net"

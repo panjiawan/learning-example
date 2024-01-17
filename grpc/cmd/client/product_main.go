@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	pb "github.com/panjiawan/learningExample/grpc/protocol/pb/ecommerce"
+	pb "github.com/panjiawan/note/grpc/protocol/pb/ecommerce"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/protobuf/types/known/wrapperspb"

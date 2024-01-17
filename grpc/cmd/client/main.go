@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/panjiawan/learningExample/grpc/protocol/pb/hello"
+	"github.com/panjiawan/note/grpc/protocol/pb/hello"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"log"
