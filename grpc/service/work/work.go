@@ -2,7 +2,7 @@ package work
 
 import (
 	"context"
-	"github.com/panjiawan/learningExample/grpc/protocol/pb/work"
+	"github.com/panjiawan/note/grpc/protocol/pb/work"
 	"log"
 	"time"
 )

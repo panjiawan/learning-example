@@ -1,4 +1,4 @@
-module github.com/panjiawan/learningExample
+module github.com/panjiawan/note
 
 go 1.19
 

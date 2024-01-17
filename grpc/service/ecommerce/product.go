@@ -3,7 +3,7 @@ package ecommerce
 import (
 	"context"
 	"fmt"
-	pb "github.com/panjiawan/learningExample/grpc/protocol/pb/ecommerce"
+	pb "github.com/panjiawan/note/grpc/protocol/pb/ecommerce"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/wrapperspb"

@@ -2,7 +2,7 @@ package hello
 
 import (
 	"context"
-	"github.com/panjiawan/learningExample/grpc/protocol/pb/hello"
+	"github.com/panjiawan/note/grpc/protocol/pb/hello"
 	"log"
 )
 
