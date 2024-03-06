@@ -1,6 +1,7 @@
 package code
 
 var (
+	GetToken    = "getToken"
 	InOnline    = "online"
 	InJoinRoom  = "joinRoom"
 	InSendMsg   = "sendMsg"
@@ -9,6 +10,7 @@ var (
 )
 
 var (
+	OutTokenSuccess = "tokenSuccess" // 获取token成功
 	OutLoginSuccess = "loginSuccess" // WS登录成功
 	OutUserJoin     = "userJoin"     // 有新用户加入房间
 	OutUserExit     = "userExit"     // 有用户退出房间

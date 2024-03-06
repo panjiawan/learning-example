@@ -15,4 +15,9 @@ var (
 		Code: 20003,
 		Msg:  "token验证失败",
 	}
+
+	ErrorGetToken OutputCode = &logicCode{
+		Code: 20004,
+		Msg:  "生成token失败",
+	}
 )

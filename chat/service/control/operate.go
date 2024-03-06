@@ -14,6 +14,8 @@ func MessageOperate(client *ihttp.WSClient, msg []byte) {
 	in := gjson.Get(string(msg), "param")
 
 	switch operate.String() {
+	case code.GetToken:
+		GetToken(client, in)
 	case code.InLogin:
 		// 登录
 		Login(client, in)

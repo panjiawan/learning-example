@@ -7,6 +7,7 @@ import (
 	"github.com/fasthttp/websocket"
 	"github.com/panjiawan/note/chat/service/control"
 	"github.com/panjiawan/note/chat/service/control/common"
+	"github.com/panjiawan/note/chat/service/control/mgr"
 	"github.com/valyala/fasthttp"
 	"go.uber.org/zap"
 )
@@ -23,8 +24,8 @@ func (w *WsCallback) OnConnect(ctx *fasthttp.RequestCtx, client *ihttp.WSClient)
 	ilog.Debug("on connect", zap.Int64("connid", client.ConnId))
 
 	// 初始化user data数据
-	//client.UserData = &common.UserData{}
-	//mgr.UserMgr.Add(client)
+	client.UserData = &common.UserData{}
+	mgr.UserMgr.Add(client)
 
 	return nil
 }
@@ -46,5 +47,5 @@ func (w *WsCallback) OnClose(client *ihttp.WSClient) {
 			userData.RoomId = 0
 		}
 	}
-	//mgr.UserMgr.Del(client)
+	mgr.UserMgr.Del(client)
 }
